@@ -1,46 +1,38 @@
-<h1 align="center">Hi 👋, I'm Keshav Singh</h1>
-<h3 align="center">Senior QA Engineer | Manual & Automation | API & SQL Testing | Agile Enthusiast</h3>
+# Keshav Singh
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=NeoKps&label=Profile%20views&color=0e75b6&style=flat" alt="NeoKps" />
-</p>
+### Senior QA Engineer | Manual & Automation | API & SQL Testing | Agile
 
 ---
 
-## 💼 About Me
+## 👋 About Me
+I’m currently working as a **Senior Software Test Engineer** with over **5 years of experience** in QA.
 
-- 🔍 I’m currently working as a **Senior Software Test Engineer at Infinite Computer Solution **, with over **5 years** of experience in QA.
-- 💪 Hands-on with **Manual Testing, SQL validations, API Testing (Postman & RestAssured)**, and building **traceability matrices**.
-- 🛠 Driving quality in **Agile environments**, working closely with developers, BAs, and business for end-to-end feature validation.
-- 💡 Passionate about **identifying gaps early**, collaborating on solutions, and ensuring a smooth user experience.
-- 🌱 Currently learning **advanced Selenium frameworks, Docker & CI/CD pipelines** to scale automation.
-
----
-
-## 🚀 Tech & Tools
-
-- 💻 **Languages:** Java, SQL
-- 🐞 **Testing:** Manual QA | API Testing | Selenium WebDriver | RestAssured | Postman
-- 🗃 **Databases:** MySQL, MS SQL Server
-- 🔄 **Agile:** JIRA | Sprint Planning | Scrum | Defect Lifecycle
-- ⚙ **Version Control:** Git, GitHub
-- 📝 **Test Management:** JIRA
-
+✅ Hands-on with **Manual Testing**, **SQL validations**, **API Testing (Postman, RestAssured)**  
+✅ Experienced in creating **traceability matrices** and ensuring complete end-to-end test coverage.  
+✅ Working closely with developers, BAs, and business teams in **Agile environments** to deliver quality releases.  
+✅ Passionate about identifying gaps early, driving solutions, and ensuring a smooth user experience.  
+🌱 Currently learning advanced **Selenium frameworks, Docker & CI/CD pipelines** to scale automation.
 
 ---
 
-## 🔗 My Links
+## 🛠 Tech & Tools
+- **Languages:** Java, SQL
+- **Testing:** Manual QA, Selenium WebDriver, RestAssured, Postman
+- **Databases:** MySQL, MS SQL Server
+- **Agile:** JIRA, Sprint Planning, Scrum, Defect Lifecycle
+- **Version Control:** Git, GitHub
 
+---
+
+## 🔗 Links
 - 📄 [View My Online Resume](https://neokps.github.io/KeshavSingh_Resume/)
-- 📫 **Email:** keshavmi1110@gmail.com
-- 💼 [LinkedIn] : https://www.linkedin.com/in/keshav-singh-525004159/
+- 💼 [LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/keshav-singh-525004159/)) *(update your actual link!)*
+- 📧 **Email:** keshavmi1110@gmail.com
 
 ---
 
-## ⚡ Fun Fact
-🌏 I love working in distributed teams and have extensive experience collaborating across time zones. Always excited to learn new tools and improve testing processes!
+## 🚀 Quick Note
+I love collaborating across global teams and continuously improving testing processes.  
+Feel free to connect or reach out to discuss QA, Agile, or test automation!
 
 ---
-
-⭐ *Thanks for visiting my GitHub profile! Feel free to connect, collaborate, or discuss anything around QA, Agile, or test automation.*
-
