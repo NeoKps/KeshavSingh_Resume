@@ -9,7 +9,7 @@
 
 ## 💼 About Me
 
-- 🔍 I’m currently working as a **Senior Software Test Engineer at [Your Company]**, with over **4.5 years** of experience in QA.
+- 🔍 I’m currently working as a **Senior Software Test Engineer at Infinite Computer Solution **, with over **5 years** of experience in QA.
 - 💪 Hands-on with **Manual Testing, SQL validations, API Testing (Postman & RestAssured)**, and building **traceability matrices**.
 - 🛠 Driving quality in **Agile environments**, working closely with developers, BAs, and business for end-to-end feature validation.
 - 💡 Passionate about **identifying gaps early**, collaborating on solutions, and ensuring a smooth user experience.
@@ -26,21 +26,14 @@
 - ⚙ **Version Control:** Git, GitHub
 - 📝 **Test Management:** JIRA
 
----
-
-## 📈 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=NeoKps&show_icons=true&theme=radical" alt="NeoKps stats" />
-</p>
 
 ---
 
 ## 🔗 My Links
 
 - 📄 [View My Online Resume](https://neokps.github.io/KeshavSingh_Resume/)
-- 📫 **Email:** keshavgiet16cse074@gmail.com
-- 💼 [LinkedIn](https://linkedin.com) *(add your actual link!)*
+- 📫 **Email:** keshavmi1110@gmail.com
+- 💼 [LinkedIn] : https://www.linkedin.com/in/keshav-singh-525004159/
 
 ---
 
