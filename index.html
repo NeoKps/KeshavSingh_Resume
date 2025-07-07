@@ -17,6 +17,21 @@
             padding: 50px 20px;
             text-align: center;
         }
+        .animated-gradient {
+            background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+            background-size: 800% 800%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: gradientMove 8s ease infinite;
+            font-weight: bold;
+        }
+
+@keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
         .container {
             background: white;
             max-width: 800px;
@@ -59,8 +74,8 @@
 <body>
 
 <div class="hero">
-    <h1>Hello, I'm Keshav Singh</h1>
-    <h2>Senior Software Test Engineer</h2>
+    <h1 class="animated-gradient">Hello, I'm Keshav Singh</h1>
+    <h2 class="animated-gradient">Senior Software Test Engineer</h2>
 </div>
 <div class="container">
     <p>
