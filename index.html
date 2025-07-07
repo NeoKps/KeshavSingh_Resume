@@ -7,31 +7,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f4f6f8;
-        }
-        .hero {
-            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-            color: white;
-            padding: 50px 20px;
-            text-align: center;
-        }
-        .animated-gradient {
-            background: linear-gradient(270deg, #ff6ec4, #7873f5, #4ade80, #facc15);
-            background-size: 800% 800%;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            animation: gradientMove 8s ease infinite;
-            font-weight: bold;
-        }
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-@keyframes gradientMove {
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
+
+.hero h1, .hero h2 {
+    color: black; /* fixed black text */
+    margin: 0 0 20px;
+}
+
+@keyframes gradientBG {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
     100% { background-position: 0% 50%; }
 }
-
         .container {
             background: white;
             max-width: 800px;
@@ -74,8 +71,8 @@
 <body>
 
 <div class="hero">
-    <h1 class="animated-gradient">Hello, I'm Keshav Singh</h1>
-    <h2 class="animated-gradient">Senior Software Test Engineer</h2>
+    <h1>Hello, I'm Keshav Singh</h1>
+    <h2>Senior Software Test Engineer</h2>
 </div>
 <div class="container">
     <p>
