@@ -1,72 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Keshav Singh - Senior QA Engineer</title>
-  <style>
-    body { font-family: Arial, sans-serif; margin: 40px; line-height: 1.6; }
-    h1, h2 { color: #333; }
-    .button {
-      display: inline-block;
-      background: #007acc;
-      color: white;
-      padding: 10px 20px;
-      margin: 10px 5px;
-      border-radius: 5px;
-      text-decoration: none;
-    }
-    .button:hover { background: #005f99; }
-    .projects { margin-top: 30px; }
-    .contact { margin-top: 30px; }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keshav Singh - QA Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+        }
+        .hero {
+            background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+            color: white;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .container {
+            background: white;
+            max-width: 800px;
+            margin: -40px auto 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .skills i {
+            color: #4facfe;
+            margin-right: 8px;
+        }
+        .buttons a {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .buttons a.linkedin {
+            background: #0077b5;
+        }
+        .buttons a:hover {
+            opacity: 0.9;
+        }
+        .projects {
+            margin-top: 20px;
+        }
+        .projects a {
+            display: block;
+            color: #007bff;
+            margin: 8px 0;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
 
-  <h1>Hello, I'm Keshav Singh</h1>
-  <h2>Senior Software Test Engineer</h2>
-
-  <p>
-    I have 5+ years of experience in QA, specializing in manual and automation testing 
-    (Selenium, Java), with strong skills in API testing (Postman & RestAssured), SQL database 
-    validations, and working in Agile environments (Scrum, JIRA). 
-    Passionate about quality software delivery, CI/CD practices, and collaborating 
-    with cross-functional teams.
-      I have over 5 years of experience in Quality Assurance, with a strong background in both manual and automation testing. I specialize in building robust test frameworks using Selenium WebDriver with Java, and automating REST APIs with Postman and RestAssured.
-
-I’m proficient in SQL database validations, JIRA for defect and test management, and driving testing activities in Agile/Scrum environments.
-
-My expertise spans functional, regression, integration, smoke, and end-to-end testing, along with hands-on experience in designing BDD-style test cases, performing API contract testing, and working with CI/CD pipelines to ensure faster, quality-driven releases.
-
-I’m passionate about collaborating closely with developers, business analysts, and stakeholders to deliver high-quality software that meets business objectives. Always eager to learn and adopt new QA tools and practices to improve overall test efficiency and coverage.
-  </p>
-
-  <a href="Keshav_Singh_Resume.pdf" class="button" download>📄 Download My Resume</a>
-  <a href="https://www.linkedin.com/in/keshav-singh-525004159/" class="button" target="_blank">🔗 LinkedIn Profile</a>
-
-  <div class="projects">
-    <h2>My Automation Projects</h2>
-    <ul>
-      <li><strong>E-commerce UI Automation</strong>: 
+<div class="hero">
+    <h1>Hello, I'm Keshav Singh</h1>
+    <h2>Senior Software Test Engineer</h2>
+</div>
+<div class="container">
+    <p>
+        I have over 5 years of experience in QA, specializing in manual and automation testing 
+        <span class="skills"><i class="fas fa-robot"></i> Selenium, <i class="fab fa-java"></i> Java</span>,
+        with strong skills in API testing <i class="fas fa-plug"></i> (Postman & RestAssured),
+        SQL database validations <i class="fas fa-database"></i>, and working in Agile environments 
+        (Scrum, JIRA <i class="fas fa-tasks"></i>).
+    </p>
+    <p>
+        Passionate about quality software delivery, CI/CD practices <i class="fas fa-cogs"></i>,
+        and collaborating with cross-functional teams to deliver robust software.
+    </p>
+    <div class="projects">
+        <h3>🛠️ Projects</h3>
         <a href="https://github.com/NeoKps/automationEshop_V1" target="_blank">
-          automationEshop_V1
+            🛒 automationEshop_V1 - e-commerce automation with Selenium & TestNG
         </a>
-        - Selenium + Java based test suite for an e-commerce site
-      </li>
-      <li><strong>API Automation Suite</strong>: 
         <a href="https://github.com/NeoKps/com.restful-booker" target="_blank">
-          com.restful-booker
+            🔥 com.restful-booker - REST API automation with RestAssured
         </a>
-        - REST API testing using RestAssured framework
-      </li>
-    </ul>
-  </div>
-
-  <div class="contact">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:keshavmi1110@gmail.com">keshavmi1110@gmail.com</a></p>
-    <p>Location: Delhi NCR, India</p>
-  </div>
-
-</body>
-</html>
+    </div>
+    <div class="buttons">
+        <a href="Keshav_Singh_Resume.pdf" download>
+            <i class="fas fa-file-download"></i> Download My Resume
+        </a>
+        <a href="https://www.linkedin.com/in/keshav-singh-525004159/" target="_blank" class="linkedin">
+            <i class="fab fa-linkedin"></i> Connect on LinkedIn
+        </a>
+    </div>
+    <div class="contact" style="margin-top: 30px;">
+        <h3>📫 Contact</h3>
+        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:keshavmi1110@gmail.com">keshavmi1110@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Location: Noida UP, India</p>
+    </div>
+</div>
