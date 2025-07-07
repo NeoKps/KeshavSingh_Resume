@@ -26,7 +26,7 @@ I’m currently working as a **Senior Software Test Engineer** with over **5 yea
 
 ## 🔗 Links
 - 📄 [View My Online Resume](https://neokps.github.io/KeshavSingh_Resume/)
-- 💼 [LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/keshav-singh-525004159/)) *(update your actual link!)*
+- 💼 [LinkedIn]([https://linkedin.com](https://www.linkedin.com/in/keshav-singh-525004159/)) 
 - 📧 **Email:** keshavmi1110@gmail.com
 
 ---
