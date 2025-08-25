@@ -1,75 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Keshav Singh - QA Engineer Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            line-height: 1.6;
-            background: #f9f9f9;
-        }
-        h1, h2 {
-            color: #333;
-        }
-        .buttons {
-            margin-top: 20px;
-        }
-        a.button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin-right: 10px;
-            background: #007acc;
-            color: white;
-            text-decoration: none;
-            border-radius: 4px;
-            transition: background 0.3s ease;
-        }
-        a.button:hover {
-            background: #005fa3;
-        }
-        a.github {
-            background: #333;
-        }
-        a.github:hover {
-            background: #000;
-        }
-        a.linkedin {
-            background: #0077b5;
-        }
-        a.linkedin:hover {
-            background: #005582;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keshav Singh - QA Engineer Portfolio</title>
+  <style>
+    /* Background animation */
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(-45deg, #1e3c72, #2a5298, #007acc, #00c6ff);
+      background-size: 400% 400%;
+      animation: gradientBG 12s ease infinite;
+      color: white;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+    }
+
+    h2 {
+      margin: 10px 0 20px;
+      font-weight: 400;
+    }
+
+    p {
+      max-width: 600px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 8px;
+      background: #fff;
+      color: #007acc;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    a.button:hover {
+      background: #007acc;
+      color: white;
+    }
+
+    /* Projects Section */
+    .projects {
+      margin-top: 40px;
+      text-align: left;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .projects h3 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #ffe600;
+    }
+
+    .projects ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .projects li {
+      margin: 10px 0;
+    }
+
+    .projects a {
+      color: #ffe600;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .projects a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
+  <div>
     <h1>Hello, I'm Keshav Singh</h1>
     <h2>Senior Software Test Engineer</h2>
     <p>
-        Senior Software Test Engineer with <b>5+ years of experience</b> in <b>manual and automation testing</b>, 
-        primarily in the <b>healthcare domain and EDI</b>. Experienced in testing healthcare reporting platforms 
-        and validating <b>EDI files such as 834 and 837</b>. 
-    </p>
-    <p>
-        Skilled in <b>SQL</b> for backend data validation, <b>API testing</b> with Postman & RestAssured, 
-        and <b>automation testing</b> using Selenium WebDriver with Java across <b>JUnit with Cucumber BDD</b> 
-        and <b>TestNG</b> frameworks. Familiar with <b>CI/CD practices</b> and well-versed in <b>Agile methodologies</b>, 
-        including writing clear test cases, collaborating with cross-functional squads, and ensuring 
-        high-quality releases.
-    </p>
-    <p>
-        I am passionate about delivering <b>reliable, bug-free products</b> and continuously improving testing processes 
-        through modern tools, frameworks, and best practices.
+      Senior Software Test Engineer with 5+ years of experience in manual and automation testing,
+      mainly in the healthcare domain and EDI. Skilled in Selenium with Java, API testing (Postman & RestAssured),
+      SQL validations, and Agile methodologies. Strong exposure to functional, regression, and integration testing.
     </p>
 
     <div class="buttons">
-        <a href="Keshav_Singh_Resume.pdf" class="button">📄 Download My Resume</a>
-        <a href="https://github.com/NeoKps" class="button github" target="_blank">💻 GitHub</a>
-        <a href="https://www.linkedin.com/in/keshav-singh-525004159/" class="button linkedin" target="_blank">🔗 LinkedIn</a>
+      <a href="Keshav_Singh_Resume.pdf" class="button" download>📄 Resume</a>
+      <a href="https://github.com/NeoKps" class="button">💻 GitHub</a>
+      <a href="https://www.linkedin.com/in/keshav-singh-525004159/" class="button">🔗 LinkedIn</a>
     </div>
+
+    <!-- Projects Section -->
+    <div class="projects">
+      <h3>🚀 Projects</h3>
+      <ul>
+        <li>🛒 <a href="https://github.com/NeoKps/automationEshop_V1" target="_blank">E-Commerce Automation (Selenium + Java)</a></li>
+        <li>🔗 <a href="https://github.com/NeoKps/com.restful-booker" target="_blank">REST API Automation (RestAssured)</a></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>
