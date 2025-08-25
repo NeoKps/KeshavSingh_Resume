@@ -1,127 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Keshav Singh - QA Engineer Portfolio</title>
-  <style>
-    /* Background animation */
-    body {
-      margin: 0;
-      height: 100vh;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(-45deg, #1e3c72, #2a5298, #007acc, #00c6ff);
-      background-size: 400% 400%;
-      animation: gradientBG 12s ease infinite;
-      color: white;
-    }
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keshav Singh - QA Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
 
-    @keyframes gradientBG {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+    background-size: 400% 400%;
+    animation: gradientBG 10s ease infinite;
+}
 
-    h1 {
-      font-size: 3em;
-      margin: 0;
-    }
+.hero h1, .hero h2 {
+    color: black; /* fixed black text */
+    margin: 0 0 20px;
+}
 
-    h2 {
-      margin: 10px 0 20px;
-      font-weight: 400;
-    }
-
-    p {
-      max-width: 600px;
-      margin: auto;
-      line-height: 1.6;
-    }
-
-    .buttons {
-      margin-top: 20px;
-    }
-
-    a.button {
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 8px;
-      background: #fff;
-      color: #007acc;
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: 0.3s;
-    }
-
-    a.button:hover {
-      background: #007acc;
-      color: white;
-    }
-
-    /* Projects Section */
-    .projects {
-      margin-top: 40px;
-      text-align: left;
-      background: rgba(255, 255, 255, 0.1);
-      padding: 20px;
-      border-radius: 10px;
-    }
-
-    .projects h3 {
-      text-align: center;
-      margin-bottom: 20px;
-      color: #ffe600;
-    }
-
-    .projects ul {
-      list-style-type: none;
-      padding: 0;
-    }
-
-    .projects li {
-      margin: 10px 0;
-    }
-
-    .projects a {
-      color: #ffe600;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .projects a:hover {
-      text-decoration: underline;
-    }
-  </style>
+@keyframes gradientBG {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+        .container {
+            background: white;
+            max-width: 800px;
+            margin: -40px auto 20px;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        }
+        .skills i {
+            color: #4facfe;
+            margin-right: 8px;
+        }
+        .buttons a {
+            display: inline-block;
+            background: #007bff;
+            color: white;
+            padding: 12px 25px;
+            margin: 10px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .buttons a.linkedin {
+            background: #0077b5;
+        }
+        .buttons a:hover {
+            opacity: 0.9;
+        }
+        .projects {
+            margin-top: 20px;
+        }
+        .projects a {
+            display: block;
+            color: #007bff;
+            margin: 8px 0;
+            text-decoration: none;
+        }
+    </style>
 </head>
 <body>
-  <div>
+
+<div class="hero">
     <h1>Hello, I'm Keshav Singh</h1>
     <h2>Senior Software Test Engineer</h2>
+</div>
+<div class="container">
     <p>
-      Senior Software Test Engineer with 5+ years of experience in manual and automation testing,
-      mainly in the healthcare domain and EDI. Skilled in Selenium with Java, API testing (Postman & RestAssured),
-      SQL validations, and Agile methodologies. Strong exposure to functional, regression, and integration testing.
+        I have over 5 years of experience in QA, specializing in manual and automation testing 
+        <span class="skills"><i class="fas fa-robot"></i> Selenium, <i class="fab fa-java"></i> Java</span>,
+        with strong skills in API testing <i class="fas fa-plug"></i> (Postman & RestAssured),
+        SQL database validations <i class="fas fa-database"></i>, and working in Agile environments 
+        (Scrum, JIRA <i class="fas fa-tasks"></i>).
     </p>
-
-    <div class="buttons">
-      <a href="Keshav_Singh_Resume.pdf" class="button" download>📄 Resume</a>
-      <a href="https://github.com/NeoKps" class="button">💻 GitHub</a>
-      <a href="https://www.linkedin.com/in/keshav-singh-525004159/" class="button">🔗 LinkedIn</a>
-    </div>
-
-    <!-- Projects Section -->
+    <p>
+        Passionate about quality software delivery, CI/CD practices <i class="fas fa-cogs"></i>,
+        and collaborating with cross-functional teams to deliver robust software.
+    </p>
     <div class="projects">
-      <h3>🚀 Projects</h3>
-      <ul>
-        <li>🛒 <a href="https://github.com/NeoKps/automationEshop_V1" target="_blank">E-Commerce Automation (Selenium + Java)</a></li>
-        <li>🔗 <a href="https://github.com/NeoKps/com.restful-booker" target="_blank">REST API Automation (RestAssured)</a></li>
-      </ul>
+        <h3>🛠️ Projects</h3>
+        <a href="https://github.com/NeoKps/automationEshop_V1" target="_blank">
+            🛒 automationEshop_V1 - e-commerce automation with Selenium & TestNG
+        </a>
+        <a href="https://github.com/NeoKps/com.restful-booker" target="_blank">
+            🔥 com.restful-booker - REST API automation with RestAssured
+        </a>
     </div>
-  </div>
-</body>
-</html>
+    <div class="buttons">
+        <a href="Keshav_Singh_Resume.pdf" download>
+            <i class="fas fa-file-download"></i> Download My Resume
+        </a>
+        <a href="https://www.linkedin.com/in/keshav-singh-525004159/" target="_blank" class="linkedin">
+            <i class="fab fa-linkedin"></i> Connect on LinkedIn
+        </a>
+    </div>
+    <div class="contact" style="margin-top: 30px;">
+        <h3>📫 Contact</h3>
+        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:keshavmi1110@gmail.com">keshavmi1110@gmail.com</a></p>
+        <p><i class="fas fa-map-marker-alt"></i> Location: Noida UP, India</p>
+    </div>
+</div>
