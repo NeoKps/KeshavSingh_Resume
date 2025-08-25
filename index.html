@@ -1,111 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Keshav Singh - QA Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keshav Singh - QA Engineer Portfolio</title>
     <style>
         body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
-    background-size: 400% 400%;
-    animation: gradientBG 10s ease infinite;
-}
-
-.hero h1, .hero h2 {
-    color: black; /* fixed black text */
-    margin: 0 0 20px;
-}
-
-@keyframes gradientBG {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
-}
-        .container {
-            background: white;
+            font-family: Arial, sans-serif;
             max-width: 800px;
-            margin: -40px auto 20px;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            margin: 40px auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: #f9f9f9;
         }
-        .skills i {
-            color: #4facfe;
-            margin-right: 8px;
+        h1, h2 {
+            color: #333;
         }
-        .buttons a {
-            display: inline-block;
-            background: #007bff;
-            color: white;
-            padding: 12px 25px;
-            margin: 10px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 16px;
-        }
-        .buttons a.linkedin {
-            background: #0077b5;
-        }
-        .buttons a:hover {
-            opacity: 0.9;
-        }
-        .projects {
+        .buttons {
             margin-top: 20px;
         }
-        .projects a {
-            display: block;
-            color: #007bff;
-            margin: 8px 0;
+        a.button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-right: 10px;
+            background: #007acc;
+            color: white;
             text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+        }
+        a.button:hover {
+            background: #005fa3;
+        }
+        a.github {
+            background: #333;
+        }
+        a.github:hover {
+            background: #000;
+        }
+        a.linkedin {
+            background: #0077b5;
+        }
+        a.linkedin:hover {
+            background: #005582;
         }
     </style>
 </head>
 <body>
-
-<div class="hero">
     <h1>Hello, I'm Keshav Singh</h1>
     <h2>Senior Software Test Engineer</h2>
-</div>
-<div class="container">
     <p>
-        I have over 5 years of experience in QA, specializing in manual and automation testing 
-        <span class="skills"><i class="fas fa-robot"></i> Selenium, <i class="fab fa-java"></i> Java</span>,
-        with strong skills in API testing <i class="fas fa-plug"></i> (Postman & RestAssured),
-        SQL database validations <i class="fas fa-database"></i>, and working in Agile environments 
-        (Scrum, JIRA <i class="fas fa-tasks"></i>).
+        Senior Software Test Engineer with <b>5+ years of experience</b> in <b>manual and automation testing</b>, 
+        primarily in the <b>healthcare domain and EDI</b>. Experienced in testing healthcare reporting platforms 
+        and validating <b>EDI files such as 834 and 837</b>. 
     </p>
     <p>
-        Passionate about quality software delivery, CI/CD practices <i class="fas fa-cogs"></i>,
-        and collaborating with cross-functional teams to deliver robust software.
+        Skilled in <b>SQL</b> for backend data validation, <b>API testing</b> with Postman & RestAssured, 
+        and <b>automation testing</b> using Selenium WebDriver with Java across <b>JUnit with Cucumber BDD</b> 
+        and <b>TestNG</b> frameworks. Familiar with <b>CI/CD practices</b> and well-versed in <b>Agile methodologies</b>, 
+        including writing clear test cases, collaborating with cross-functional squads, and ensuring 
+        high-quality releases.
     </p>
-    <div class="projects">
-        <h3>🛠️ Projects</h3>
-        <a href="https://github.com/NeoKps/automationEshop_V1" target="_blank">
-            🛒 automationEshop_V1 - e-commerce automation with Selenium & TestNG
-        </a>
-        <a href="https://github.com/NeoKps/com.restful-booker" target="_blank">
-            🔥 com.restful-booker - REST API automation with RestAssured
-        </a>
-    </div>
+    <p>
+        I am passionate about delivering <b>reliable, bug-free products</b> and continuously improving testing processes 
+        through modern tools, frameworks, and best practices.
+    </p>
+
     <div class="buttons">
-        <a href="Keshav_Singh_Resume.pdf" download>
-            <i class="fas fa-file-download"></i> Download My Resume
-        </a>
-        <a href="https://www.linkedin.com/in/keshav-singh-525004159/" target="_blank" class="linkedin">
-            <i class="fab fa-linkedin"></i> Connect on LinkedIn
-        </a>
+        <a href="Keshav_Singh_Resume.pdf" class="button">📄 Download My Resume</a>
+        <a href="https://github.com/NeoKps" class="button github" target="_blank">💻 GitHub</a>
+        <a href="https://www.linkedin.com/in/keshav-singh-qa" class="button linkedin" target="_blank">🔗 LinkedIn</a>
     </div>
-    <div class="contact" style="margin-top: 30px;">
-        <h3>📫 Contact</h3>
-        <p><i class="fas fa-envelope"></i> Email: <a href="mailto:keshavmi1110@gmail.com">keshavmi1110@gmail.com</a></p>
-        <p><i class="fas fa-map-marker-alt"></i> Location: Noida UP, India</p>
-    </div>
-</div>
+</body>
+</html>
